@@ -1,0 +1,20 @@
+.main {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.item{
+    display:flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.item:not(.active) { 
+    display: none;
+    
+}
+
+.item img{
+    width: 100%;
+}
